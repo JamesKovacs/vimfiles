@@ -1,0 +1,11 @@
+Installation:
+
+  git clone http://github.com/jameskovacs/vimfiles.git ~/vimfiles
+
+Create NTFS hardlinks (as administrator):
+
+  fsutil hardlink create ~/.vimrc ~/vimfiles/.vimrc
+
+Optional NTFS hardlink if using gvim-specific settings:
+
+  fsutil hardlink create ~/.gvimrc ~/vimfiles/.gvimrc
