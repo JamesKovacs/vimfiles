@@ -9,3 +9,5 @@ Create NTFS hardlinks (as administrator):
 Optional NTFS hardlink if using gvim-specific settings:
 
   fsutil hardlink create ~/.gvimrc ~/vimfiles/.gvimrc
+
+Based on http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/.

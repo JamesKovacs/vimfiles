@@ -1,4 +1,8 @@
 set nocompatible
+
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
@@ -14,9 +18,10 @@ set number
 " disable line wrapping
 set wrap!
 
-" prevent creation of *~ files
+" prevent creation of *~ and .swp files
 set nobackup
 set nowritebackup
+set noswapfile
 
 " set working directory
 cd $HOME/Documents
