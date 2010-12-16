@@ -28,6 +28,7 @@ set noswapfile
 
 " set working directory
 cd $HOME/Documents
+set autochdir
 
 " disable bell
 set noerrorbells
