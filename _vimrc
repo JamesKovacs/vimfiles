@@ -7,6 +7,9 @@ source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
+" required for snipmate
+:filetype plugin on
+
 " default shell
 set shell=C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
 
