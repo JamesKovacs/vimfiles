@@ -10,13 +10,11 @@ behave mswin
 " required for snipmate
 :filetype plugin on
 
-" default shell
-set shell=C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
-
 " colors & fonts
 colorscheme ir_black
 set guifont=Envy_Code_R:h12:cANSI
 set number
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 " disable line wrapping
 set wrap!
