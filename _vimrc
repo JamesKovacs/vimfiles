@@ -22,6 +22,9 @@ set wrap!
 " tab handling
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
+" enable very magic mode
+set magic
+
 " prevent creation of *~ and .swp files
 set nobackup
 set nowritebackup
