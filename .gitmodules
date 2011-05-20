@@ -31,3 +31,21 @@
 [submodule "bundle\\vim-rails"]
 	path = bundle\\vim-rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule "bundle\\vim-ruby-debugger"]
+	path = bundle\\vim-ruby-debugger
+	url = git://github.com/astashov/vim-ruby-debugger.git
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = git://github.com/tpope/vim-git.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "bundle/vim-align"]
+	path = bundle/vim-align
+	url = git://github.com/tsaleh/vim-align.git
+[submodule "bundle/vim-shoulda"]
+	path = bundle/vim-shoulda
+	url = git://github.com/tsaleh/vim-shoulda.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
