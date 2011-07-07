@@ -4,8 +4,8 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
-behave mswin
+"source $VIMRUNTIME/mswin.vim
+"behave mswin
 
 " required for snipmate
 :filetype plugin on
