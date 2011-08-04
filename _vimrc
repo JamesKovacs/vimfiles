@@ -1,5 +1,6 @@
 set nocompatible
 
+filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -12,7 +13,7 @@ source $VIMRUNTIME/vimrc_example.vim
 
 " colors & fonts
 colorscheme ir_black
-set guifont=Envy_Code_R:h12:cANSI
+set guifont=Envy\ Code\ R\ 12,Envy_Code_R:h12:cANSI
 set number
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
